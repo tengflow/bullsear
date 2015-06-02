@@ -1,0 +1,10 @@
+{
+"javaPath":"src/main/java/",
+"resourcePath":"src/main/resources/",
+"webappPath":"src/main/webapp/",
+"basePackageName":"com.laughing.plat",
+"basePackagePath":"com/laughing/plat",
+"pkType":"String",
+"creator":"huoyongteng",
+"version":"1.0"
+}
