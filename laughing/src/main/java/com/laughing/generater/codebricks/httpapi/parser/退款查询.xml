@@ -1,0 +1,27 @@
+<root>
+    <apiName>QueryRefund</apiName>
+    <address>http://pos.yeepay.com/mpay-web/app/queryRefund</address>
+    <addressForTest>http://pos.yeepay.com/mpay-web/app/queryRefund</addressForTest>
+    <askDataType>xml</askDataType>
+    <replyDataType>xml</replyDataType>
+    <askAttrs>
+		<customerNo>10040011593</customerNo>
+		<outTradeNo>1400755861</outTradeNo>
+		<orderNo>KY20150209125123875</orderNo>
+		<sign>21FA9C1E5B94F883DFBF4B2F39F7F51E</sign>
+	</askAttrs>
+	
+	<replyAttrs>
+		<retCode>000</retCode>
+		<retMsg> </retMsg>
+		<sign>8402E2FB2CFAA80202FD5842EF589162</sign>
+		<resultCode>SUCCESS</resultCode>
+		<resultMsg>查询成功</resultMsg>
+		<refundNum>4</refundNum>
+		<refundAmount>100.00</refundAmount>
+		<orderAmount>100.00</orderAmount>
+		<orderType>AUTHCODEPAY</orderType>
+		<playformType>WECHAT</playformType>
+		<createDate>2015-01-29 11:40:07</createDate>
+	</replyAttrs>
+</root>

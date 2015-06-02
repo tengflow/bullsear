@@ -1,0 +1,23 @@
+<root>
+    <apiName>CustomerRefund</apiName>
+    <address>http://pos.yeepay.com/mpay-web/app/customerRefund</address>
+    <addressForTest>http://pos.yeepay.com/mpay-web/app/customerRefund</addressForTest>
+    <askDataType>xml</askDataType>
+    <replyDataType>xml</replyDataType>
+    <askAttrs>
+		<customerNo>10040011593</customerNo>
+		<outTradeNo>20150209001</outTradeNo>
+		<orderNo>KY20150209125123875</orderNo>
+		<outRefundNo>123456544</outRefundNo>
+		<refundAmount>0.01</refundAmount>
+		<sign>4D9D4CCC55F01AF8E7E961F6DAEEA99D</sign>
+	</askAttrs>
+	
+	<replyAttrs>
+		<retCode>000</retCode>
+		<retMsg></retMsg>
+		<sign>80D4D12A1E007B9F39BE202B9EC96F5B</sign>
+		<resultCode>SUCCESS</resultCode>
+		<resultMsg>已报送至退款中心</resultMsg>
+	</replyAttrs>
+</root>

@@ -1,0 +1,9 @@
+{
+"javaPath":"src/main/java/",
+"resourcePath":"src/main/resources/",
+"webappPath":"src/main/webapp/",
+"basePackageName":"com.yeepay.g3.hotel",
+"basePackagePath":"com/yeepay/g3/hotel",
+"creator":"huoyongteng",
+"version":"1.0"
+}
